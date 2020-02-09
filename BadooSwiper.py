@@ -7,7 +7,7 @@ from random import random
 
 class BadooBot():
     def __init__(self):
-        self.profile = webdriver.FirefoxProfile('/Users/heitorsampaio/Desktop/Tools/SMMarketingTools/Profile')
+        self.profile = webdriver.FirefoxProfile('')
         self.options = Options()
         self.driver = webdriver.Firefox(self.profile, options=self.options)
 
